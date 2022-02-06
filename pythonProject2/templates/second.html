@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Login</title>
+</head>
+
+<body>
+    <div>
+      
+<form method="POST" action="">
+                <h1>Teacher LOGIN</h1><br><br>
+                <label>First Name:</label>
+                <input type="text" placeholder="Enter First Name" id="f" name="fn" required><br><br>
+                <label>Last Name:</label>
+                <input type="text" placeholder="Enter Last Name" id="l" name="ln" required><br><br>
+                <label>Employee ID:</label>
+                <input type="text" placeholder="Enter your employee id" id="u" name="ui" required><br><br>
+                <label>Password:</label>
+                <input type="password" placeholder="enter your password" id="p" name="pi" required><br><br>
+                <button class="b"><a href="{{url_for('teacherloged')}}">Submit</a></button>
+                <button class="c"><a href="{{url_for('teacher')}}">Sign Up</a></button>
+
+        </form>
+<link rel="stylesheet" href="static\second.css">
+  </div>
+    </body>

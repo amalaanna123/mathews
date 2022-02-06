@@ -1,0 +1,30 @@
+div{
+    position: center;
+    text-align: center;
+    margin-top: 5cm;
+}
+#a{
+    text-align: center;
+}
+.b{
+    border:black;
+    color:white;
+    padding: 60px 60px;
+    background-color: rgb(175, 47, 47);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px
+}
+.c{
+    border: white;
+    color:white;
+    padding: 60px 60px;
+    background-color: rgb(12, 12, 12);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px
+    
+   
+}
